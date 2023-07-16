@@ -1,4 +1,4 @@
-# Decentralized Job Application Portal
+# Distributed Job Application Portal
 
 A robust, secure and efficient P2P Job Application Portal developed in the "CS-438 Decentralized System Engineering" course, supported by the DEDIS lab at EPFL.
 
