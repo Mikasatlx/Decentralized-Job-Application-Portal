@@ -1,8 +1,12 @@
 # Distributed Job Application Portal
 
-A robust, secure and efficient P2P Job Application Portal developed in the "CS-438 Decentralized System Engineering" course, supported by the DEDIS lab at EPFL.
+A robust and privacy-enhancing peer-to-peer job application portal developed in the "CS-438 Decentralized System Engineering" course, supported by the DEDIS lab at EPFL.
 
 ![Example](docs/example.png)
+
+Achieve consensus on the decision orders among the distributed storage system based on PBFT algorithm. This consensus is guaranteed in a robust manner, which tolerates arbitrary behaviors even if less than one third of the nodes are malicious:
+
+![Example](docs/pbftpipeline.png)
 
 ## Configure
 Now we have 3 configure files for 3 nodes, and they have their roles. Such configures will be read in `projectconfig := ReadJSON(c.String("configpath"))` in `gui/mod.go`. You can modify them if you want.
